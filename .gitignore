@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Data (keep only raw)
+data/processed/
+data/temp/
+*.csv.bak
+
+# Models (optional - can keep or use git-lfs)
+# models/*.pkl  # Uncomment if using git-lfs
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+secrets/
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Credentials
+*.pem
+*.key
+credentials.json
